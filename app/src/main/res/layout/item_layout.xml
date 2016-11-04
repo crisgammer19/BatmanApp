@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="63dp"
+        android:id="@+id/imageViewBatman"
+        android:src="@mipmap/ic_launcher"
+        android:layout_weight="0.05" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="312dp"
+        android:layout_height="match_parent"
+        android:background="@color/button_material_light">
+
+        <TextView
+            android:layout_width="332dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Titulo"
+            android:id="@+id/textViewtitulo"
+            android:background="@color/azul" />
+
+        <TextView
+            android:layout_width="179dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Año"
+            android:id="@+id/textView2año"
+            android:background="@color/rojo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Tipo"
+            android:id="@+id/textViewtipo" />
+    </LinearLayout>
+
+</LinearLayout>
